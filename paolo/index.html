@@ -3,10 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mia Pagina</title>
+    <title>Esempio di Pagina HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ciao Mondo!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus minus dignissimos enim vitae autem necessitatibus quisquam aperiam minima officiis numquam quae beatae obcaecati, aspernatur consectetur soluta eius quas repellendus quam.</p>
+    <header>
+        Esempio di Pagina HTML
+    </header>
+    
+    <section>
+        <div class="container">
+            <h1>Benvenuto!</h1>
+            <p>Questa è una pagina di esempio per illustrare i vari tag HTML.</p>
+            
+            <h2>Tag Principali:</h2>
+            <ul>
+                <li><strong>&lt;h1&gt; - &lt;h6&gt;</strong>: Intestazioni di diversi livelli</li>
+                <li><strong>&lt;p&gt;</strong>: Paragrafo</li>
+                <li><strong>&lt;a&gt;</strong>: Collegamento ipertestuale</li>
+                <li><strong>&lt;img&gt;</strong>: Immagine</li>
+                <li><strong>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</strong>: Liste non ordinate e ordinate</li>
+                <li><strong>&lt;table&gt;</strong>: Tabelle</li>
+                <li><strong>&lt;div&gt;</strong>: Contenitore generico</li>
+                <li><strong>&lt;span&gt;</strong>: Contenitore inline</li>
+            </ul>
+
+            <h2>Esempio di Collegamento</h2>
+            <p>Visita <a href="https://www.google.com" target="_blank">Google</a> per una ricerca.</p>
+
+            <h2>Esempio di Immagine</h2>
+            <img src="https://via.placeholder.com/300" alt="Esempio di immagine">
+        </div>
+    </section>
+    
+    <footer>
+        &copy; 2025 - Pagina di esempio per HTML
+    </footer>
 </body>
 </html>
