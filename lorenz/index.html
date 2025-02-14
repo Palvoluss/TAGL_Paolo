@@ -1,5 +1,78 @@
 <!DOCTYPE html>
-<h1>pagina ufficiale</h1>
-<body>pagina html</body>
-<h1>Breve bio</h1>
-<body>ciao mi ciamo lorenz e ho 20 anni</body>
+<h1 style="text-align:center;">Pagina ufficiale</h1>
+<p style="text-align:center;">Pagina html</p>
+<h1 style="text-align:center;">Breve bio</h1>
+<p style="text-align:center;">Mi chiamo lorenz e ho 20 anni</p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+    <h1 style="text-align:center;">HTML e una bella cosa</h1>
+<p style="text-align:center;">il corso organizzato dalla regione toscana</p>
+<p style="text-align:center;">Non so che scrivere quindi scrivo questo</p>
+<header>
+    <h2>Programmazione</h2>
