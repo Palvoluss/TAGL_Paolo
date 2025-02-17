@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.cv-container {
+    width: 800px;
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.header .info h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.header .info h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: grey;
+    margin: 5px 0;
+}
+
+.header .info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 8px;
+    border: 2px solid black;
+    display: inline-block;
+    padding-right: 12px;
+    border-radius: 5px;
+}
+
+.section p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section ul li {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.two-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.two-columns .section {
+    flex: 1;
+}
