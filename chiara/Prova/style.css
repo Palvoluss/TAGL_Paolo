@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Colore di sfondo */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px; /* Spazio interno */
+}
+
+.immagine-profilo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.immagine-profilo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Immagine tonda */
+    object-fit: cover; /* Immagine copre tutta la grandezza */
+}
+
+.icone-social {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icone-social a {
+    display: inline-block; /* Per allineare le icone */
+    margin: 0 10px;
+}
+
+.icone-social img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Icone tonde */
+}
+
+#chi-sono {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
