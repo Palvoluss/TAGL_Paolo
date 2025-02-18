@@ -1,0 +1,31 @@
+.blocco {width: 300px; ;
+    height: 200px; ;
+    background-color: blue;
+    margin: 20px;;
+    padding: 20px; ;
+    color:white ;
+    text-align:center ;
+    font-size: 18px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aqua;
+}
+.quadro {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    display: flex;justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 8px;
+}
